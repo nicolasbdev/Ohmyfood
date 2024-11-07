@@ -1,16 +1,37 @@
-/*# sourceMappingURL=style.css.map */
-
-/* Ci dessous code de la page d'accueil */
-
-.restaurants_card img {
-    height: 100%;
-    width: 100%;
-} 
-
-
-/* Ci-dessous code de la première page "Restaurants" */
-
-.intro img {
-    height: 25%;
-    width: 25%;
+/*Code pour les images de la div restaurants */
+img {
+  height: 100px;
+  width: 100px;
 }
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+header .logo {
+  height: 28px;
+  margin: auto;
+}
+header form {
+  align-items: center;
+  background-color: grey;
+  height: 40px;
+  z-index: 1;
+  flex-direction: row;
+  gap: 15px;
+  display: flex;
+}
+header form .champ_recherche {
+  border: none;
+  background: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+header form .champ_recherche::-moz-placeholder {
+  color: black;
+}
+header form .champ_recherche::placeholder {
+  color: black;
+}/*# sourceMappingURL=style.css.map */
