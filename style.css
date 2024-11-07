@@ -1,6 +1,16 @@
 /*# sourceMappingURL=style.css.map */
 
+/* Ci dessous code de la page d'accueil */
+
 .restaurants_card img {
     height: 100%;
     width: 100%;
 } 
+
+
+/* Ci-dessous code de la première page "Restaurants" */
+
+.intro img {
+    height: 25%;
+    width: 25%;
+}
